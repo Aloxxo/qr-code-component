@@ -20,4 +20,22 @@ body {
 
 .qr-card {
     background: hsl(0, 0%, 100%);
+    width: 280px;
+    padding: .7rem;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.qr-card__image {
+    width: 100%;
+}
+
+.qr-card__title {
+    font-size: 21px;
+    padding: 10px 0;
+}
+
+.qr-card__text {
+    font-size: 15px;
+    padding-bottom: 20px;
 }
